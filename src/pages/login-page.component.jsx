@@ -11,7 +11,7 @@ function LoginPage() {
         <div className="flex flex-col px-4 py-6 w-[60%] h-full justify-center">
           <div className="text-center mb-6">
             <h1 className="text-[#f6f6f6] font-medium text-2xl mb-1">
-              Welcome back!s
+              Welcome back!
             </h1>
             <p>We&rsquo;re so excited to see you again!</p>
           </div>
