@@ -3,6 +3,8 @@ import { v4 as randomId } from "uuid";
 import DiscordMainLogo from "../../assets/discord_main_logo.svg";
 import LeftBgLandingHeader from "../../assets/left_bg_landing_header.svg";
 import RightBgLandingHeader from "../../assets/right_bg_landing_header.svg";
+import JustChilling from "../../assets/just_chiling_landing.svg";
+import UsaFlag from "../../assets/usa_flag.png";
 import SmallRoundedButton from "../utils/SmallRoundedButton.component";
 import MainRoundedButton from "../utils/MainRoundedButton.component ";
 import FeatureHighlights from "../components/feature-highlights.component";
@@ -111,7 +113,7 @@ function CoverPage() {
               up and have a drawing session with screen share.
             </p>
           </div>
-          <img src="../../assets/just_chiling_landing.svg" alt="" />
+          <img src={JustChilling} alt="" />
           <div className="mt-8 flex flex-col justify-center items-center">
             <h2 className="text-4xl font-bold">Ready to start your journey?</h2>
             <button className="text-white bg-[#5865f2] flex justify-center items-center rounded-[28px] text-xl font-medium px-8 py-4 mr-6 mt-6">
@@ -125,11 +127,7 @@ function CoverPage() {
         <div className="flex justify-center pt-20 w-2/3 mx-auto">
           <div className="w-1/3">
             <div className="flex items-center">
-              <img
-                className="h-4 w-6 mr-2"
-                src="../../assets/usa_flag.png"
-                alt="usa-flag"
-              />
+              <img className="h-4 w-6 mr-2" src={UsaFlag} alt="usa-flag" />
               <span>English, USA</span>
             </div>
           </div>

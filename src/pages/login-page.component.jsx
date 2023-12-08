@@ -1,14 +1,17 @@
+import LoginBackground from "../../assets/login_bg.svg";
+import QRCodeImage from "../../assets/qr_code.png";
+
 function LoginPage() {
   return (
     <div
       className="bg-cover bg-no-repeat bg-center h-screen w-screen flex justify-center items-center text-[#8e9297]"
-      style={{ backgroundImage: 'url("../../assets/login_bg.svg")' }}
+      style={{ backgroundImage: `url(${LoginBackground})` }}
     >
       <div className="bg-[#292b2f] w-2/5 h-1/2 rounded flex justify-around items-start">
         <div className="flex flex-col px-4 py-6 w-[60%] h-full justify-center">
           <div className="text-center mb-6">
             <h1 className="text-[#f6f6f6] font-medium text-2xl mb-1">
-              Welcome back!
+              Welcome back!s
             </h1>
             <p>We&rsquo;re so excited to see you again!</p>
           </div>
@@ -49,7 +52,7 @@ function LoginPage() {
           <div className="h-full flex flex-col justify-center items-center">
             <div className="h-full flex flex-col justify-center items-center">
               <div className="mb-16">
-                <img src="../../assets/qr_code.png" alt="" />
+                <img src={QRCodeImage} alt="" />
               </div>
               <div className="text-center">
                 <h2>Log in with QR Code</h2>
