@@ -1,11 +1,12 @@
+import { Link } from "react-router-dom";
 import { v4 as randomId } from "uuid";
 import DiscordMainLogo from "../../assets/discord_main_logo.svg";
 import LeftBgLandingHeader from "../../assets/left_bg_landing_header.svg";
 import RightBgLandingHeader from "../../assets/right_bg_landing_header.svg";
 import SmallRoundedButton from "../utils/SmallRoundedButton.component";
 import MainRoundedButton from "../utils/MainRoundedButton.component ";
-import FeatureHighlights from "../components/FeatureHighlights.component";
-import FooterInfoElements from "../components/FooterInfoElements.component";
+import FeatureHighlights from "../components/feature-highlights.component";
+import FooterInfoElements from "../components/footer-info-elements.component";
 import featureHighlights from "../models/featureHighlights.model";
 import elements from "../models/elements.model";
 
@@ -43,7 +44,7 @@ function CoverPage() {
           </div>
           <div>
             <SmallRoundedButton bgColor="white" textColor="black">
-              Login
+              <Link to="/login">Login</Link>
             </SmallRoundedButton>
           </div>
         </div>
