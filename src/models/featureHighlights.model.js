@@ -1,7 +1,11 @@
+import InviteOnly from "../../assets/invite_only_landing.svg";
+import HangingOutEasy from "../../assets/hanging_out_easy_landing.svg";
+import Fandom from "../../assets/fandom_landing.svg";
+
 const featureHighlights = [
   {
     bgColor: null,
-    imageSrc: "../../assets/invite_only_landing.svg",
+    imageSrc: InviteOnly,
     imageAlt: "Invite only landing",
     title: "Create an invite-only place where you belong",
     description: `Discord servers are organized into topic-based channels where
@@ -11,7 +15,7 @@ const featureHighlights = [
   },
   {
     bgColor: "#f6f6f6",
-    imageSrc: "../../assets/invite_only_landing.svg",
+    imageSrc: HangingOutEasy,
     imageAlt: "Invite only landing",
     title: "Where hanging out is easy",
     description: `Grab a seat in a voice channel when you're free. Friends in
@@ -21,7 +25,7 @@ const featureHighlights = [
   },
   {
     bgColor: null,
-    imageSrc: "../../assets/fandom_landing.svg",
+    imageSrc: Fandom,
     imageAlt: "Fandom",
     title: "From few to a fandom",
     description: `Get any community running with moderation tools and custom
